@@ -56,7 +56,7 @@ public class EliminarFotos extends HttpServlet {
             throws ServletException, IOException {
         DAOFactory daof = DAOFactory.getDAOFactory();
         IFotoDAO fdao = daof.getFotoDAO();
-//        IArticuloDAO adao = daof.getArticuloDAO();
+
         String url = null;
 
         if (request.getParameter("boton").equalsIgnoreCase("Realizar")) {
