@@ -1,0 +1,218 @@
+@CHARSET "UTF-8";
+body {
+    font-family: Verdana;	
+    font-size: 1em;
+}
+div#principal {
+    width: 70%;
+    position: relative;
+    float: left;
+    left: 15%;
+    border: 2px solid blue;
+    border-radius: 20px;
+    padding-bottom: 15px;
+    margin-top: 50px;
+}
+div#principal h2 {
+    font-size: 1.1em;
+    text-align: center;
+    color: green;
+}
+div#principal h1 {
+    font-size: 1.5em;
+    text-align: center;
+    color: orange;
+}
+div#principal div#secundario {
+    width: 90%;
+    position: relative;
+    float: left;
+    left: 5%;
+}
+div#principal table {
+    width: 90%;
+    position: relative;
+    left: 5%;
+    border-collapse: separate;
+}
+div#principal table th {
+    background: blue;
+    color: white;
+    font-weight: normal;
+}
+.resto {
+    padding-left: 5px;
+}
+div#principal table th, div#principal table td {
+    border: black 1px solid;
+}
+.centro {
+    text-align: center;
+}
+.flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+.numero {
+    text-align: right;
+}
+fieldset {
+    width: 70%; 
+    border: none;
+    position: relative;
+    left: 15%;
+}
+fieldset.index {
+    padding-left: 20px;
+}
+legend {
+    font-style: italic; 
+    font-size: .9em; 
+    color: blue; 
+}
+table#listado {
+    position: relative; 
+    left: 25%; 
+    width: 50%; 
+
+} 
+table#listado td {
+    text-align: left;
+
+}
+table caption {
+    font-style: italic;
+    font-size: 1em;
+    color: grey;
+}
+div.error {
+    width: 60%;
+    position: relative;
+    float: left;
+    left: 20%;
+    text-align: center;
+    color: red;
+    border: 3px groove red;    
+}
+h3 {
+    font-style: italic;
+    font-size: .9em;
+    text-align: center;
+}
+h3.error, p.error{
+    color: red;
+    text-align: center;
+
+}
+h3.normal {
+    color: green;
+
+}
+h3.aviso {
+    color: orange;
+
+}
+div.codigo {
+    border-bottom: 2px ridge blue;
+}
+div.codigo input {
+    color: red;
+    border: none;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+h2 {
+    text-align: center;
+}
+div.flotante {
+    width: 30%;
+    position: relative;
+    float: left;
+    border: none;
+}
+p.boton {
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.1em;
+}
+ol a, a {
+    text-decoration: none;
+}
+p#volver {
+    text-align: center;
+}
+.boton {
+    font-size: 1em;
+    font-family: verdana;
+}
+div#principal table {
+    width: 70%;
+    left: 15%;
+    margin: 10px;
+}
+.enlace {
+    display: inline;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    background: none;
+    color: #000088;
+    font-family: arial, sans-serif;
+    font-size: 1.2em;
+}
+.enlace:hover {
+    text-decoration: none;
+    color:#0000cc;
+    cursor: pointer;
+}
+.b1, .b2 {
+    width: 45%;
+    position: relative;
+    float: left;
+    text-align: center;
+}
+table#ariculos {
+    border: 2px blue solid;
+}
+table#articulos th {
+    font-weight: normal;
+    color: white;
+    background-color: blue;
+    text-align: left;
+}
+table#articulos td {
+    border-collapse: separate;
+    border: 1px black solid;
+}
+div.flota {
+    position: relative;
+    float: left;
+    width: 45%;
+    left: 5%;
+    margin-left: 3%;
+    margin-top: 5px;
+}
+div#secundario fieldset.contiene {
+    border-style: outset;
+    position: relative;
+    width: 70%;
+}
+fieldset.dentro {
+    padding-left: 10px; 
+    border-style: ridge;
+}
+fieldset.comun {
+    position: relative;
+    width: 90%;
+    left: 5%;
+    padding-left: 10px; 
+    border-style: ridge;
+}
+div.resuelto {
+    display: none;
+    margin: 10px 0px;
+}
+.limpiar {
+    clear: both;
+}
